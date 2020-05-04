@@ -1,6 +1,10 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, {Component} from 'react';
+import { Switch, Route, Redirect } from 'react-router-dom';
+
 import './App.css';
+
+import Navbar from '../src/components/Navbar/Navbar';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
